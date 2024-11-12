@@ -1,0 +1,32 @@
+# Ignorar arquivos temporários e de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar diretórios e arquivos do Composer
+/vendor/
+
+# Ignorar arquivos de cache e logs
+/runtime/
+.cache/
+logs/
+
+# Ignorar arquivos de configuração sensíveis (como o de banco de dados)
+*.env
+
+# Ignorar arquivos de IDEs comuns (exemplo: PhpStorm, VSCode)
+.idea/
+.vscode/
+
+# Ignorar arquivos de teste ou gerados pela ferramenta de build
+/tests/_output/
+build/
+
+# Ignorar o diretório de dependências locais
+composer.lock
+
+# Ignorar arquivos temporários do editor
+*.swp
+*.swo
+
+# Ignorar arquivos de backup
+*~

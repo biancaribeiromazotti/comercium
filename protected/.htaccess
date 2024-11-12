@@ -1,0 +1,9 @@
+# Habilita o uso de URLs amigáveis no Yii
+RewriteEngine on
+
+# Verifica se o arquivo ou diretório existe antes de reescrever
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Reescreve todas as requisições para o arquivo index.php
+RewriteRule . index.php
